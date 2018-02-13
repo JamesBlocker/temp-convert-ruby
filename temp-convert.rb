@@ -1,5 +1,3 @@
-
-
 value = ARGV[0].to_f
 temp_in = ARGV[1].downcase
 temp_out = ARGV[2].downcase
