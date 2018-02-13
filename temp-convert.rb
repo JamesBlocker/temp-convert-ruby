@@ -5,43 +5,37 @@ temp_in = ARGV[1].downcase
 temp_out = ARGV[2].downcase
 
 def c_to_f input
-    result =  (input * 1.8) + 32
-    return result
+    return (input * 1.8) + 32
 end
 
 #puts c_to_f(value)
 
 def f_to_c input
-    result = (input - 32) * 5 / 9
-    return result
+    return (input - 32) * 5 / 9
 end
 
 #puts f_to_c(value)
 
 def c_to_k input
-    result = input + 273.15
-    return result
+    return input + 273.15
 end
 
 #puts c_to_k(value)
 
 def k_to_c input
-    result = input - 273.15
-    return result
+    return input - 273.15
 end
 
 #puts k_to_c(value)
 
 def f_to_k input
-    result = (input - 32) * 5 / 9 + 273.15
-    return result
+    return (input - 32) * 5 / 9 + 273.15
 end
 
 #puts f_to_k(value)
 
 def k_to_f input
-    result = (input - 273.15) * 1.8 + 32
-    return result
+    return (input - 273.15) * 1.8 + 32
 end
 
 #puts k_to_f(value)
