@@ -8,37 +8,25 @@ def c_to_f input
     return (input * 1.8) + 32
 end
 
-#puts c_to_f(value)
-
 def f_to_c input
     return (input - 32) * 5 / 9
 end
-
-#puts f_to_c(value)
 
 def c_to_k input
     return input + 273.15
 end
 
-#puts c_to_k(value)
-
 def k_to_c input
     return input - 273.15
 end
-
-#puts k_to_c(value)
 
 def f_to_k input
     return (input - 32) * 5 / 9 + 273.15
 end
 
-#puts f_to_k(value)
-
 def k_to_f input
     return (input - 273.15) * 1.8 + 32
 end
-
-#puts k_to_f(value)
 
 if temp_in == "c" && temp_out == "f"
     puts c_to_f(value)
